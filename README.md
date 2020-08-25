@@ -1,12 +1,20 @@
-# _{Application Name}_
+# _Bank Account_
 
-#### _{Brief description of application}, 8/21/20_
+#### _{Brief description of application}, 8/25/20_
 
-#### By _**Joseph Nilles**_
+#### By _**Joseph Nilles Natalie Muprh Brycen Bartolome **_
 
 ## Description
+ 
+Bank Account
+Use constructor functions and prototypes to create a webpage where a user can create a single bank account
+with an initial deposit amount. 
+Then allow the user to make 
+withdrawals, 
+deposits and 
+see the balance of the account.
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Remember to create a BankAccount constructor and a prototype that includes methods for deposit and withdrawal and any other properties needed. Here is an example wireframe to help you visualize the app:
 
 ### Specs
 | Spec | Input | Output |
