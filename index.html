@@ -8,12 +8,56 @@
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
 </head>
-
 <body>
-  
-
+<div class= "container">
+  <h1>Welcome to Epicodus Credit Union!</h1>
+  <div class="row">
+    <div class="card border-success col-6">
+      <div class="card-header">ECU</div>
+      <div class="card-body text-success">
+        <h5 class="card-title">Register a new account:</h5>
+        <form id="register">
+          <div class="form-group">
+            <label for="nameinput">Name</label>
+            <input type="text" class="form-control" id="nameInput" placeholder="your name">
+          </div>
+          <div class="form-group">
+            <label for="initdepositinput">Inital Deposit</label>
+            <input type="number" step="any" class="form-control" id="initdepositinput" placeholder="amount">
+          </div>
+          <button type="submit" class="btn btn-outline-info">Submit</button>
+        </form>
+        <p class="card-text">Enter your name and an Inital deposit amount.</p>
+      </div>
+    </div>
+    <div class="card border-success col-6">
+      <div class="card-header">ECU</div>
+      <div class="card-body text-success">
+        <h5 class="card-title">Deposit or withdaw funds:</h5>
+        <form id="deposit_withdrawl">
+          <div class="form-group">
+            <label for="depositinput">Deposit ammount:</label>
+            <input type="number" class="form-control" id="deposit-input" placeholder="amount">
+          </div>
+          <div class="form-group">
+            <label for="withdraw_linput">Withdrawal Ammount:</label>
+            <input type="number" class="form-control" id="withdrawal-input" placeholder="amount">
+          </div>
+          <button type="submit" class="btn btn-outline-info">Submit</button>
+        </form>
+        <p class="card-text">Enter an ammount you would like to deposit or withdrawl above.</p>
+      </div>
+    </div>
+    <div class="card border-success col-12">
+      <div class="card-header">ECU : <span id="account-name"></span></div>
+      <div class="card-body text-success">
+        <h5 class="card-title">Current Balance:</h5>
+        <input type="text" class="form-control" id="balance" value="" disabled>
+      </div>
+    </div>
 
   </div>
+</div>
 </body>
 
 </html>

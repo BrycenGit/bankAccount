@@ -6,15 +6,18 @@
 
 ## Description
  
-Bank Account
-Use constructor functions and prototypes to create a webpage where a user can create a single bank account
-with an initial deposit amount. 
-Then allow the user to make 
-withdrawals, 
-deposits and 
-see the balance of the account.
+_Bank Account_
 
-Remember to create a BankAccount constructor and a prototype that includes methods for deposit and withdrawal and any other properties needed. Here is an example wireframe to help you visualize the app:
+Use constructor functions and prototypes to create a webpage where a user can create a single bank account with an initial deposit amount. 
+Then allow the user to make:
+- withdrawals 
+- deposits
+- see the balance of the account.
+
+Remember to create a BankAccount constructor and a prototype that includes 
+methods for:
+- deposit
+- withdrawal and any other properties needed.
 
 ### Specs
 | Spec | Input | Output |
@@ -52,4 +55,4 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 *This software is available with an MIT license*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_{List of contributors or company name}_**
